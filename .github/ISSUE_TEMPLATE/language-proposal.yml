@@ -1,0 +1,25 @@
+name: Language proposal
+about: Propose a generic clause or improvement (no confidential info)
+title: "[CLAUSE] Short description"
+labels: enhancement
+assignees: ""
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Please keep proposals **generic** and free of confidential terms.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context / problem
+      description: What problem should this clause address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed language (generic)
+      description: Provide your suggested clause. Keep placeholders like [COMPANY], [UNIVERSITY].
+    validations:
+      required: true
